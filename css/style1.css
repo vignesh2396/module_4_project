@@ -1,0 +1,27 @@
+div {
+    -webkit-animation: AnimationName 13s ease infinite;
+    -moz-animation: AnimationName 13s ease infinite;
+    -o-animation: AnimationName 13s ease infinite;
+    animation: AnimationName 13s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}

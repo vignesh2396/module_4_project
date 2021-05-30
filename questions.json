@@ -1,0 +1,667 @@
+[
+  {
+    "question": "Inside which HTML element do we put the JavaScript??",
+    "choice1": "<script>",
+    "choice2": "<javascript>",
+    "choice3": "<js>",
+    "choice4": "<scripting>",
+    "answer": 1
+  },
+  {
+    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+    "choice1": "<script href='xxx.js'>",
+    "choice2": "<script name='xxx.js'>",
+    "choice3": "<script src='xxx.js'>",
+    "choice4": "<script file='xxx.js'>",
+    "answer": 3
+  },
+  {
+    "question": " How do you write 'Hello World' in an alert box?",
+    "choice1": "msgBox('Hello World');",
+    "choice2": "alertBox('Hello World');",
+    "choice3": "msg('Hello World');",
+    "choice4": "alert('Hello World');",
+    "answer": 4
+  },
+  
+{
+    "id": 357,
+    "question": "Which of the following scripts will run successfully",
+    "description": null,
+    "answer": {
+      "answer_a": "Users statistics SELECT customer name FROM customers;",
+      "answer_b": "SELECT `customer name` FROM customers WHERE cat_id = 12 ORDER BY cat_id;",
+      "answer_c": "SELECT FROM `customers` 'customer name';",
+      "answer_d": "SELECT `customer name` FROM customers ORDER BY zone WHERE cat_id = 12;",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 379,
+    "question": "What will be the output of the query SELECT * FROM `members` LIMIT 1, 2;",
+    "description": null,
+    "answer": {
+      "answer_a": "the query will generate an error",
+      "answer_b": "the query will return all records from the members table",
+      "answer_c": "the query will return the first 2 records",
+      "answer_d": "the query will return skip the first record then return the following 2 records only",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "true",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 241,
+    "question": "Can you start two MySQL servers at one PC?",
+    "description": null,
+    "answer": {
+      "answer_a": "True",
+      "answer_b": "False",
+      "answer_c": null,
+      "answer_d": null,
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 361,
+    "question": "What will be the output of the following query INSERT INTO students (student name) VALUE ('James Lenon');",
+    "description": null,
+    "answer": {
+      "answer_a": "a student record with the name James Lenon will be added into the students table",
+      "answer_b": "the above query will generate an error message.",
+      "answer_c": null,
+      "answer_d": null,
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 221,
+    "question": "The command to remove rows from a table \"MOVIE\" is:",
+    "description": null,
+    "answer": {
+      "answer_a": "REMOVE FROM MOVIE",
+      "answer_b": "DROP FROM MOVIE",
+      "answer_c": "DELETE FROM MOVIE WHERE",
+      "answer_d": "UPDATE FROM MOVIE",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 209,
+    "question": "UPDATE keyword is used for:",
+    "description": null,
+    "answer": {
+      "answer_a": "to create database elements",
+      "answer_b": "to change data",
+      "answer_c": "to manage users",
+      "answer_d": "to select data",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 344,
+    "question": "A systematic collection of data stored in a central location is known as?",
+    "description": null,
+    "answer": {
+      "answer_a": "CSV",
+      "answer_b": "Flat file",
+      "answer_c": "Database",
+      "answer_d": "Excel",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 405,
+    "question": "The program called MySQL is",
+    "description": null,
+    "answer": {
+      "answer_a": "There Isn't A Program Just Called Mysql",
+      "answer_b": "A Client Program That Lets You Send SQL Commands To The Database Engine",
+      "answer_c": "The Database Engine",
+      "answer_d": "A Wrapper Through Which Java Clients Must Connect To The Databases  The Database Engine",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 347,
+    "question": "MySQL workbench decreases the productivity of a MySQL developer compared to other server access tools such as phpMyAdmin?",
+    "description": null,
+    "answer": {
+      "answer_a": "True",
+      "answer_b": "False",
+      "answer_c": null,
+      "answer_d": null,
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 420,
+    "question": "What Is a MySQL View?",
+    "description": null,
+    "answer": {
+      "answer_a": "VIEWS are virtual tables that do not store any data of their own but display data stored in other tables.",
+      "answer_b": "VIEWS are static tables that store data but the data can't be changed",
+      "answer_c": "VIEWS are temporary tables that store data which store data only for a certain amount of time",
+      "answer_d": "VIEWS are no different that any other tables except they are used for faster loading.",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 369,
+    "question": "Which of the following is a valid aggregate function",
+    "description": null,
+    "answer": {
+      "answer_a": "CURDATE()",
+      "answer_b": "COUNT",
+      "answer_c": "AVERAGE",
+      "answer_d": "MAXIMUM",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 365,
+    "question": "The ASC and DESC keywords can be used in the same statement",
+    "description": null,
+    "answer": {
+      "answer_a": "True",
+      "answer_b": "False",
+      "answer_c": null,
+      "answer_d": null,
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 219,
+    "question": "What does SQL stands for?",
+    "description": null,
+    "answer": {
+      "answer_a": "Structure query language",
+      "answer_b": "Strong question language",
+      "answer_c": "Structured question language",
+      "answer_d": "Separate query language",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 398,
+    "question": "MySQL runs on which Operating Systems?",
+    "description": null,
+    "answer": {
+      "answer_a": "Unix And Linux Only",
+      "answer_b": "Windows only",
+      "answer_c": "Linux And Mac OS-X Only",
+      "answer_d": "Unix, Linux, Windows,Mac And Others",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "true",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 355,
+    "question": "The command DROP SCHEMA `STUDENTS`; will delete the students database.",
+    "description": null,
+    "answer": {
+      "answer_a": "True",
+      "answer_b": "False",
+      "answer_c": null,
+      "answer_d": null,
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 397,
+    "question": "Commands passed to the MySQL daemon are written in",
+    "description": null,
+    "answer": {
+      "answer_a": "English",
+      "answer_b": "The Structured Query Language",
+      "answer_c": "Your Choice From Perl, PHP, Java Or Some Other Languages",
+      "answer_d": "Swedish",
+      "answer_e": "Binary",
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 356,
+    "question": "The WHERE clause is mandatory when using the SELECT command",
+    "description": null,
+    "answer": {
+      "answer_a": "True",
+      "answer_b": "False",
+      "answer_c": null,
+      "answer_d": null,
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 399,
+    "question": "Which of the following is NOT supported by MySQL",
+    "description": null,
+    "answer": {
+      "answer_a": "Temporary (Hash) Tables",
+      "answer_b": "Stored Procedures",
+      "answer_c": "Regular Expression Matching",
+      "answer_d": "Table Joining",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 226,
+    "question": "You can add a row using SQL in a database with which of the following?",
+    "description": null,
+    "answer": {
+      "answer_a": "ADD",
+      "answer_b": "CREATE",
+      "answer_c": "INSERT",
+      "answer_d": "MAKE",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 214,
+    "question": "What does the WHERE SQL operator does:",
+    "description": null,
+    "answer": {
+      "answer_a": "restricts the set of rows to the selection of those records for which the condition is true",
+      "answer_b": "converts the value of a column or function to a different type",
+      "answer_c": "changes the order of output rows",
+      "answer_d": "eliminates all row repeats from the result set",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answer": "false",
+    "correct_answer": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "MySQL"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  }
+]
